@@ -1,7 +1,7 @@
 package in.gautamit.ecomm.entities;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
+
 import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;
