@@ -12,6 +12,7 @@ import in.gautamit.ecomm.entities.Product;
 public interface ProductRepository extends JpaRepository<Product, Long>{
 	
 	Page<Product> findByCategoryId(@Param("id") Long id,Pageable pageable);
+	//for search functionality
 	Page<Product>findByNameContaining(@Param("name") String name,Pageable pageable);
 	
 
